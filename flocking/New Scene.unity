@@ -152,17 +152,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 7200000, guid: 8a34899f9c1a35648ab126502fc2fb31, type: 3}
-  rotationSpeed: 14
-  boidSpeed: 20
-  neighbourDistance: 10
+  rotationSpeed: 10
+  boidSpeed: 15
+  neighbourDistance: 4
   boidSpeedVariation: 0.3
-  boidMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  boidMesh: {fileID: -915712872417006085, guid: 24566a8cc504bf0439b012681e33131c, type: 3}
   boidMaterial: {fileID: 2100000, guid: 5a80da7ac251a7e4ab2663d3db564b59, type: 2}
-  boidsCount: 1000
+  boidsCount: 300
   spawnRadius: 4
   target: {fileID: 435165790}
-  cohesionWeight: 2.5
-  cursorWeight: 3
+  cohesionWeight: 0.3
+  alignmentWeight: 2
+  separationWeight: 5
+  cursorWeight: 1
 --- !u!4 &435165790
 Transform:
   m_ObjectHideFlags: 0
